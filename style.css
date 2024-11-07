@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*|| RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+
+/*|| VARIABLES*/
+:root {
+    /*COLORS*/
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray_500: hsl(0, 0%, 42%);
+    --Gray_950: hsl(0, 0%, 7%);
+
+    /*FONTS*/
+    --FS: 16PX;
+}
+ html{
+    font-family: 'Figtree', serif;
+    font-weight: 500;
+ }
+body {
+    min-height: 100vh;
+    background-color: var(--Yellow);
+    display: grid;
+    place-content: center;
+}
+.card{
+    box-shadow: 5px 5px 1px  rgba(0, 0, 0, 1);
+    border-radius: 16px;
+    border: 1px solid var(--Gray_500);
+    background-color: var(--White);
+    padding: 2px  10px;
+    width: 350px;
+    height: 490px;
+}
+.card-image img{
+    display: grid;
+    place-content: center;
+    width: 95%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 16px;
+}
+.card-content{
+    margin: 1.3rem 1rem;
+}
+.card-content .card-title{
+    font-size: 1rem;
+    background-color: var(--Yellow);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 0.4rem 0.6rem;
+}
+.card-content .card-date{
+    font-size: 16px;
+    margin: 0.8rem auto;
+}
+.card-content .card-text-header{
+    font-weight: 800;
+    transition: all 0.5s ease-in-out;
+}
+:is(.card-text-header:hover, :focus){
+  color: var(--Yellow);
+  cursor: pointer;
+}
+.card-content .card-text{
+    margin: 0.8rem auto;
+    line-height: 1.5;
+    color: var(--Gray_500);
+}
+.card-content .card-author{
+ display: flex;
+ align-items: center;
+ margin-top: 1rem auto;
+}
+
+.card-content .card-author img{
+    width: 40px;
+}
+.card-author figcaption{
+    margin-left: 0.7rem;
+    font-weight: bold;
+}
+
+/*|| SMALL*/
+@media screen and (max-width: 375px){
+    .card{
+        width: 280px;
+        height: 425px;
+        padding:  2px 5px;
+    }
+    .card-image img{
+        display: grid;
+        place-content: center;
+        width: 90%;
+    }
+    .card-content .card-text-header{
+        font-size: 18px;
+    }
+   .card-content .card-text{
+        font-size: 12px;
+    }
+}
+/*|| Desktop*/
+@media screen and (min-width: 1440px){
+    .card{
+        width: 350px;
+        height: auto;
+    }
+    .card-content .card-text-header{
+        font-size: 20px;
+    }
+    .card-content .card-text{
+        font-size: 16px;
+}
+}
