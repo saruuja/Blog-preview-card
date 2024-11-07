@@ -4,20 +4,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Frontend Mentor - Blog preview card solution](#frontend-mentor---blog-preview-card-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
-
 ## Overview
 This is a simple Blog preview card solution with a hero imge title and littel description .
 ### The challenge
@@ -29,8 +15,8 @@ as far as i know this is a simple challenge to build a blog preview card
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/saruuja/Blog-preview-card)
+- Live Site URL: [Add live site URL here](https://saruuja.github.io/Blog-preview-card/)
 
 ## My process
 
