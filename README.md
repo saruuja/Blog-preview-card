@@ -15,8 +15,8 @@ as far as i know this is a simple challenge to build a blog preview card
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/saruuja/Blog-preview-card)
-- Live Site URL: [Add live site URL here](https://saruuja.github.io/Blog-preview-card/)
+- Solution URL: [solution URL here](https://github.com/saruuja/Blog-preview-card)
+- Live Site URL: [live site URL here](https://saruuja.github.io/Blog-preview-card/)
 
 ## My process
 
